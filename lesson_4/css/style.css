@@ -1,0 +1,70 @@
+@import url("reset.css");
+
+/* * {
+    color: aquamarine;
+} */
+
+/* p {
+    color: rosybrown;
+} */
+
+/* a {
+    color: blue;
+} */
+
+/* li {
+    color: orangered;
+} */
+
+.title-one {
+    color: rgb(38, 235, 103);
+}
+
+.title-two {
+    color: gray;
+}
+
+.list {
+    color: fuchsia;
+}
+
+#city {
+    color: rgb(205, 205, 48);
+}
+
+div.history {
+    color: cornflowerblue;
+}
+
+.text.history {
+    color: salmon;
+}
+
+.location,
+.tourism {
+    color: mediumpurple;
+}
+
+.history a {
+    color: rgb(134, 218, 9);
+}
+
+/* .text * {
+    color: darkmagenta;
+} */
+
+.text>h2 {
+    color: darkcyan;
+}
+
+.text˜p {
+    color: rgb(209, 11, 47);
+}
+
+.text+p {
+    color: rgb(242, 207, 7);
+}
+
+[class*="-block"] {
+    color: green;
+}
