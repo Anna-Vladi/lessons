@@ -1,0 +1,437 @@
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #7D7D7D;
+    font-size: 18px;
+}
+
+.header {
+    min-width: 400px;
+    min-height: 150px;
+    border-radius: 40px;
+    background: linear-gradient(135deg, rgba(9, 64, 204, 1) 0%, rgba(10, 177, 55, 1) 45%, rgba(231, 230, 4, 1) 100%);
+    margin-bottom: 40px;
+}
+
+.title1 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.8;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #e10d0d;
+    text-shadow: 5px 5px 4px #500202;
+    text-transform: uppercase;
+
+}
+
+.practice {
+    background: linear-gradient(120deg, rgba(9, 79, 204, 1) 0%, rgba(10, 160, 169, 1) 25%, rgba(10, 177, 155, 1) 50%, rgba(14, 220, 140, 1) 75%, rgba(231, 230, 4, 1) 100%);
+    padding: 30px;
+    color: rgb(50, 48, 48);
+    line-height: 1.1;
+    margin-bottom: 40px;
+}
+
+.block1 {
+    padding: 20px;
+    background-color: mediumaquamarine;
+}
+
+.block2 {
+    max-width: 800px;
+    margin: 0 auto;
+    background-image: url("../img/pattern.jpeg");
+    background-repeat: no-repeat;
+}
+
+.block3 {
+    background: url("../img/vorochta1.jpeg") center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: aliceblue;
+}
+
+.block4 {
+    background: url("../img/winter.jpeg") left center / 200px no-repeat;
+    padding: 20px 20px 20px 220px;
+}
+
+/* End of practice */
+
+.wecare-container {
+    max-width: 703px;
+    padding: 0 15px;
+    margin: 0 auto 100px;
+}
+
+.wecare-subtitle {
+    color: #37393f;
+    font-weight: 500;
+    line-height: 1.22;
+    margin-bottom: 16px;
+    padding-left: 18px;
+    text-transform: capitalize;
+    min-height: 22px;
+    background: url("../img/Box.jpg") 0 5px / 12px 12px no-repeat;
+}
+
+.wecare-title {
+    font-family: "Poppins", sans-serif;
+    color: #37393F;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.wecare-paragraph p {
+    margin-bottom: 15px;
+}
+
+.wecare-paragraph {
+    line-height: 1.46;
+    margin-bottom: 20px;
+}
+
+.wecare-list {
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.46;
+    margin-bottom: 43px;
+}
+
+.wecare-list li {
+    background: url("../img/Vector.jpg") 0 3px no-repeat;
+    padding-left: 35px;
+    min-height: 33px;
+    margin-bottom: 23px;
+}
+
+.experience-awards {
+    margin-bottom: 37px;
+}
+
+.experience {
+    display: inline-block;
+    max-width: 295px;
+    border: 1px solid #E3E3E3;
+    background: url("../img/Icon.jpg") 32px 31px / 40px 40px no-repeat;
+    vertical-align: top;
+    padding: 31px 32px 32px 90px;
+    margin-right: 21px;
+}
+
+.awards {
+    display: inline-block;
+    max-width: 295px;
+    border: 1px solid #E3E3E3;
+    background: url("../img/Icon2.jpg") 37px 31px / 40px 40px no-repeat;
+    vertical-align: top;
+    padding: 31px 32px 32px 96px;
+}
+
+.title4-wecare {
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.experience-awards-text {
+    font-size: 16px;
+    line-height: 1.35;
+}
+
+.wecare-button {
+    display: inline-block;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #6B77E5;
+    padding: 20px 27px;
+}
+
+.discover {
+    max-width: 1320px;
+    margin: 0 auto 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.discover-info {
+    color: #37393F;
+    margin: 0 auto 47px;
+    max-width: 852px;
+    text-align: center;
+}
+
+.discover-subtittle {
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.22;
+    min-height: 22px;
+    background: url("../img/Box.jpg") 0 5px / 12px 12px no-repeat;
+    padding-left: 18px;
+    margin-bottom: 14px;
+}
+
+.discover-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    margin-bottom: 14px;
+}
+
+.discover-text {
+    color: #7D7D7D;
+    line-height: 1.46;
+}
+
+/* Pictures rows */
+
+.discover-firstrow {
+    margin-bottom: 58px;
+}
+
+.firstrow-left {
+    display: inline-block;
+    width: 100%;
+    max-width: 384px;
+    vertical-align: top;
+    margin-right: 34px;
+}
+
+.firstrow-left-img {
+    background: url("../img/firstrowleft.jpg") center / cover no-repeat;
+    margin-bottom: 24px;
+    min-height: 501px;
+    max-width: 100%;
+}
+
+.row-title {
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+}
+
+.date {
+    color: #7D7D7D;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.46;
+    min-height: 22px;
+    padding-left: 25px;
+    background: url(../img/calendar.jpg) no-repeat;
+}
+
+.firstrow-middle {
+    display: inline-block;
+    width: 100%;
+    max-width: 384px;
+    vertical-align: top;
+    margin-right: 34px;
+}
+
+.firstrow-middle-img {
+    background: url(../img/firstrowmiddl.jpg) center / cover no-repeat;
+    margin-bottom: 24px;
+    min-height: 501px;
+    max-width: 100%;
+}
+
+.firstrow-right {
+    display: inline-block;
+    width: 100%;
+    max-width: 384px;
+    vertical-align: top;
+}
+
+.firstrow-right-img {
+    background: url(../img/firstrowright.jpg) center / cover no-repeat;
+    margin-bottom: 24px;
+    min-height: 501px;
+    max-width: 100%;
+}
+
+.secondrow-left {
+    display: inline-block;
+    width: 100%;
+    max-width: 384px;
+    vertical-align: top;
+    margin-right: 34px;
+}
+
+.secondrow-left-img {
+    background: url(../img/secondrowleft.jpg) center / cover no-repeat;
+    margin-bottom: 24px;
+    min-height: 501px;
+    max-width: 100%;
+}
+
+.secondrow-middle {
+    display: inline-block;
+    width: 100%;
+    max-width: 384px;
+    vertical-align: top;
+    margin-right: 34px;
+}
+
+.secondrow-middle-img {
+    background: url(../img/secondrowmidle.jpg) center / cover no-repeat;
+    margin-bottom: 24px;
+    min-height: 501px;
+    max-width: 100%;
+}
+
+.secondrow-right {
+    display: inline-block;
+    width: 100%;
+    max-width: 384px;
+    vertical-align: top;
+}
+
+.secondrow-right-img {
+    background: url(../img/secondrowright.jpg) center / cover no-repeat;
+    margin-bottom: 24px;
+    min-height: 501px;
+    max-width: 100%;
+}
+
+.clothing {
+    max-width: 1270px;
+    margin: 0 auto 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.title-clothing {
+    font-family: "Core Sans", sans-serif;
+    color: #3C4242;
+    font-size: 28px;
+    line-height: 1.19;
+    font-weight: 600;
+    letter-spacing: 0.56px;
+    min-height: 31px;
+    padding: 0px 0px 0px 21px;
+    margin-bottom: 30px;
+    background: url(../img/violett.jpg) 0px 2px no-repeat;
+}
+
+.subtitle-clothing {
+    color: #807D7E;
+    font-family: "Core Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    padding-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.clothing-text {
+    color: #807D7E;
+    font-family: "Causten", sans-serif;
+    font-size: 20px;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    padding-left: 25px;
+}
+
+.clothing-text p {
+    margin-bottom: 20px;
+}
+
+.euphoria-link {
+    font-weight: 700;
+}
+
+.clothing-link {
+    color: #807D7E;
+    font-family: "Core Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+}
+
+.fashion {
+    max-width: 1270px;
+    margin: 0 auto 100px;
+    padding: 0 15px;
+}
+
+.fashion-block {
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 0;
+    color: #ffff;
+}
+
+.image-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    min-height: 640px;
+    background: url(../img/unsplash1.jpg) center / cover no-repeat;
+    padding: 183px 74px 174px 74px;
+}
+
+.fashion-header {
+    color: #FFF;
+    font-family: "Core Sans", sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.47;
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+}
+
+.fashion-text {
+    color: #FFF;
+    font-family: "Causten", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.fashion-button {
+    display: inline-block;
+    padding: 12px 44px;
+    border-radius: 8px;
+    background-color: #FFF;
+    color: #3C4242;
+    text-align: center;
+    font-family: "Causten", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.image-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    min-height: 640px;
+    background: url(../img/unsplash2.jpg) center top / cover no-repeat;
+}
+
+.bottom-block {
+    font-size: 24px;
+    color: #6B77E5;
+    text-shadow: 5px 5px 4px #7b83cf;
+    text-transform: uppercase;
+}
