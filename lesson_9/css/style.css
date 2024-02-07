@@ -2,8 +2,6 @@
 
 @import url("reset.css");
 
-body {}
-
 header {
     margin: 0 auto;
     margin-bottom: 50px;
@@ -462,7 +460,7 @@ header h2 {
     font-family: "Inter", sans-serif;
     font-size: 18px;
     max-width: 705px;
-    pad: 0 15px;
+    padding: 0 15px;
     margin: 0 auto 50px;
 }
 
